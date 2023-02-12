@@ -1,0 +1,10 @@
+.help__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.help__part1 {
+    max-width: 500px;
+}

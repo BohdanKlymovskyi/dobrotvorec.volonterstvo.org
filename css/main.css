@@ -1,0 +1,132 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+main {
+  background: #BFAF92;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1200px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 107px;
+}
+
+.hero__buttons {
+  gap: 40px;
+}
+
+.hero__button1 {
+  background: #75663E;
+  border-radius: 30px;
+  color: #FFFFFF;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 65px;
+  padding-right: 66px;
+  border: none;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.hero__button1:hover {
+  background: #BFAF92;
+  border: 1px solid black;
+  box-shadow: none;
+  transition: all 0.75s linear;
+}
+
+.hero__button2 {
+  background: #75663E;
+  border-radius: 30px;
+  color: #FFFFFF;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 44px;
+  padding-right: 45px;
+  border: none;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.hero__button2:hover {
+  background: #BFAF92;
+  border: 1px solid black;
+  box-shadow: none;
+  transition: all 0.75s linear;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about__part1 {
+  max-width: 500px;
+}
+
+.what__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.what__part2 {
+  max-width: 500px;
+}
+
+.help__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.help__part1 {
+  max-width: 500px;
+}
+
+.join__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.join__part2 {
+  max-width: 500px;
+}/*# sourceMappingURL=main.css.map */
